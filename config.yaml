@@ -56,20 +56,24 @@ params:
     url: /
     button: true
   featurecards:
-    title: About Us
-    subtitle: with great responsibility
+    title: How SparkWing can help
+    subtitle: find your dream team
     tiles:
-    - title: App builder
+    - title: Job Plans
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: Concierge MVP job plan writing service
       url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      buttonText: Get a Job Plan
+    - title: Working Interviews
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-    - title: Add-ons & plugins
+      text: Work together before making a decision.
+      url: /
+      buttonText: Find Open Jobs
+    - title: Anonymous Job Applications
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: Share your work, not your personal details.
+      url: /
+      buttonText: Sign Up
   textlist:
     title: You're here because you want the best
     subtitle: And we know it
