@@ -1,9 +1,9 @@
-{{- $section3   := .Site.Params.section3 }}
-{{- $title      := index $section3 "title" }}
-{{- $subtitle   := index $section3 "subtitle" }}
-{{- $image      := index $section3 "image" }}
-{{- $buttonText := index $section3 "buttontext" }}
-{{- $buttonLink := index $section3 "buttonlink" }}
+{{- $bigimage   := .Site.Params.bigimage }}
+{{- $title      := index $bigimage "title" }}
+{{- $subtitle   := index $bigimage "subtitle" }}
+{{- $image      := index $bigimage "image" }}
+{{- $buttonText := index $bigimage "buttontext" }}
+{{- $buttonLink := index $bigimage "buttonlink" }}
 <section class="section section-feature-grey is-medium">
   <div class="container">
     <div class="columns">

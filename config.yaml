@@ -55,20 +55,22 @@ params:
   - title: Sign up
     url: /
     button: true
-  section1:
+  featurecards:
     title: About Us
-    subtitle: 
-    features:
+    subtitle: with great responsibility
+    tiles:
     - title: App builder
       icon: mouse-globe
       text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Free trial
     - title: Cloud integration
       icon: laptop-cloud
       text: This is some explanatory text that is on two rows
     - title: Add-ons & plugins
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
-  section2:
+  textlist:
     title: You're here because you want the best
     subtitle: And we know it
     features:
@@ -82,13 +84,13 @@ params:
     - title: Nomad system
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
-  section3:
+  bigimage:
     title: One platform
     subtitle: To rule them all
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
-  section4:
+  testimonials:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
@@ -104,7 +106,7 @@ params:
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: HR Manager
       img: 3
-  section5: true
+  contact: true
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg

@@ -1,7 +1,7 @@
-{{- $section1 := .Site.Params.section1 }}
-{{- $title    := index $section1 "title" }}
-{{- $subtitle := index $section1 "subtitle" }}
-{{- $tiles    := index $section1 "tiles" }}
+{{- $featurecards := .Site.Params.featurecards }}
+{{- $title    := index $featurecards "title" }}
+{{- $subtitle := index $featurecards "subtitle" }}
+{{- $tiles    := index $featurecards "tiles" }}
 <section class="section section-feature-grey is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
