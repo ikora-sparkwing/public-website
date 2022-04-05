@@ -1,4 +1,4 @@
-baseURL: http://sparkwing.me
+baseURL: https://sparkwing.com.au
 languageCode: en-us
 title: SparkWing
 theme: hugo-fresh
@@ -50,10 +50,6 @@ params:
       url: /
     - title: Dropdown item
       url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
     button: true
   featurecards:
     title: How SparkWing can help
@@ -110,7 +106,7 @@ params:
   contact: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: SW-Sticker.png
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
