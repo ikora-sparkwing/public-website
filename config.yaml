@@ -38,19 +38,12 @@ params:
     #- notreadyyet
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
+  - title: Job List
+    url: /jobs
+  - title: Post a Job
+    url: /new
   - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    button: true
+    url: /pricing
   featurecards:
     title: How SparkWing can help
     subtitle: find your dream team
@@ -81,12 +74,12 @@ params:
     - title: Vision
       text: is to help people find their best work with the right team.
       icon: doc-sync
-  # bigimage:
-  #   title: One platform
-  #   subtitle: To rule them all
-  #   image: illustrations/mockups/app-mockup.png
-  #   buttonText: Get started
-  #   buttonLink: "#"
+  bigimage:
+   title: Free Job Plans
+   subtitle: To celebrate SparkWing's takeoff, we're offering a limited number of free job planning workshops with our team.
+   image: SparkWingCompare.png
+   buttonText: Get Early Access
+   buttonLink: "#"
   # testimonials:
   #   title: Our Clients love us!
   #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
@@ -118,33 +111,16 @@ params:
       #icon: github
     quicklinks:
       column1:
-        title: "Product"
+        title: "About Us"
         links:
-        - text: Discover features
+        - text: info@sparkwing.me
+          link: "mailto: info@sparkwing.me"
+        - text: "ABN: 69 657 372 677"
           link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
       column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
         title: "Blog"
         links:
         - text: Latest news
           link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+        - text: All articles
+          link: /
