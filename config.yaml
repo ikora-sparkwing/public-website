@@ -1,7 +1,6 @@
 baseURL: https://sparkwing.com.au
 languageCode: en-us
 title: SparkWing
-theme: hugo-fresh
 
 # Disables warnings
 disableKinds:
@@ -124,3 +123,4 @@ params:
           link: /blog/first
         - text: All articles
           link: /
+  sovereignty:  SparkWing works from Wadawarrung land and acknowledges that sovereignty of this land has not been ceded.
