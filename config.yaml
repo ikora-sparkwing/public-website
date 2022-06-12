@@ -12,26 +12,28 @@ markup:
       unsafe: true # Allows you to write raw html in your md files
 
 params:  
-  # Used as meta data; describe your site to make Google Bots happy
+  # Used as meta data; describe your site to make BAWTs happy
   description: Find your dream team.
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/SparkWing.png
+    image: logos/SparkWingLogo_2022_03_02-1.svg
     link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
+  fullimage:
+    image: Find your dream team.gif
   hero:
     # Main hero title
     title: Find your dream team
     # Hero subtitle (optional)
-    subtitle: SparkWing is taking off on a journey to transform the way Australia builds teams.
+    subtitle: SparkWing is taking off on a journey to change the way we build teams for the better. 
     # Button text
     buttontext: Learn More
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: logos/Hero.svg
+    image: Find your dream team.gif
     # Footer logos (from static/images/logos/clients/___.svg)
     #clientlogos:
     #- notreadyyet
@@ -41,72 +43,65 @@ params:
     url: /jobs
   - title: Post a Job
     url: /new
-  - title: Pricing
-    url: /pricing
+  - title: Contribute
+    url: https://opencollective.com/sparkwing
   featurecards:
-    title: How SparkWing can help
-    subtitle: find your dream team
+    title: How it works
     tiles:
-    - title: Job Plans
-      icon: mouse-globe
-      text: Concierge MVP job plan writing service
+    - title: Plan the Job
+      icon: image-one
+      text: We'll help you describe how a new teammate can help
       url: /
       buttonText: Get a Job Plan
     - title: Working Interviews
-      icon: laptop-cloud
-      text: Work together before making a decision.
+      icon: image-two
+      text: Work together before making a decision
       url: /
       buttonText: Find Open Jobs
     - title: Anonymous Job Applications
-      icon: plug-cloud
-      text: Share your work, not your personal details.
+      icon: image-three
+      text: Share your work, not your personal details
       url: /
       buttonText: Sign Up
   textlist:
-    title: Our Purpose and Vision
+    title: Purpose and Vision
     subtitle: 
     features:
     - title: Purpose
-      text: Provide a service that seamlessly connects the right people to the right teams for a fair price.
+      text: Provide a service that seamlessly connects the right people to the right teams
       icon: doc-sync
       # Icon (from /images/illustrations/icons/___.svg)
     - title: Vision
-      text: is to help people find their best work with the right team.
+      text: Help people find their best work with the right team.
       icon: doc-sync
-  bigimage:
-   title: Free Job Plans
-   subtitle: To celebrate SparkWing's takeoff, we're offering a limited number of free job planning workshops with our team.
-   image: SparkWingCompare.png
-   buttonText: Get Early Access
-   buttonLink: "#"
-  # testimonials:
-  #   title: Our Clients love us!
-  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-  #   clients:
-  #   - name: Irma Walters
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: Accountant
-  #     img: 1
-  #   - name: John Bradley
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: Financial Analyst
-  #     img: 2
-  #   - name: Gary Blackman
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: HR Manager
-  #     img: 3
+  testimonials:
+    title: How have we helped?
+    subtitle: This is what people are saying.
+    clients:
+    - name: 
+      quote: I have never seen anything like this!
+      job: Technology Leader
+      img: 
+    - name: 
+      quote: This is the best thing. I feel confident now.
+      job: Small Business Owner
+      img: 
+    - name: 
+      quote: Thank you for connecting me with this role. I am enjoying it.
+      job: Senior Developer
+      img: 
   contact: true
   footer:
     # Logo (from /images/logos/___)
-    logo: SW-Sticker.png
-    # Social Media Title
-    socialmediatitle: Follow Us
+    logo: SparkWingLogo_2022_03_02-1.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://linkedin.com/sparkwing
-      icon: linkedin
-    # - link: https://github.com/sparkwing # will we need this to be public for any reason? 
-      # Icons are from Font Awesome
+    externalLinksTitle: Contribute
+    externalLinks:
+      - name: To our collective
+        link: https://opencollective.com/sparkwing
+        icon: opencollective-foundation.png
+ #   - name: To our source
+ #     link: https://github.com/sparkwing # coming soon
       #icon: github
     quicklinks:
       column1:
@@ -116,11 +111,11 @@ params:
           link: "mailto: info@sparkwing.me"
         - text: "ABN: 69 657 372 677"
           link: /
-      column2:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: All articles
-          link: /
+      # column2:
+      #   title: "Blog"
+      #   links:
+      #   - text: Latest news
+      #     link: /blog/first
+      #   - text: All articles
+      #     link: /
   sovereignty:  SparkWing works from Wadawarrung land and acknowledges that sovereignty of this land has not been ceded.

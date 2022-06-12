@@ -5,11 +5,11 @@ Navbar
 //Navbar
 .navbar.is-fresh {
     position: relative;
-    min-height: 3.8rem;
+    min-height: 5rem;
     transition: all .3s;
     z-index: 99;
     .container {
-        min-height: 4rem;
+        min-height: 6rem;
     }
     &.no-shadow {
         box-shadow: none !important;
@@ -23,13 +23,14 @@ Navbar
     .navbar-brand {
         min-height: 4rem;
         img {
-            max-height: 36px !important;
-            height: 36px;
+            max-height: 100px !important;
+            height: 100px;
         }
         //Removing navbar item default hover behaviour
         &:hover {
             .navbar-item {
                 background: transparent !important;
+                
             }
         }
     }
@@ -40,8 +41,10 @@ Navbar
     .navbar-item {
         color: $muted-grey;
         &.is-secondary {
+            font-size: 2rem;
             &:hover {
                 color: $secondary !important;
+                text-decoration-line: underline;
             }
         }
         &.has-dropdown {
